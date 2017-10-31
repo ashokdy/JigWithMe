@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F980A7DF1FA8E8A3003C852A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F980A7DE1FA8E8A3003C852A /* AppDelegate.swift */; };
+		F980A7E11FA8E8A3003C852A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F980A7E01FA8E8A3003C852A /* ViewController.swift */; };
+		F980A7E41FA8E8A3003C852A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F980A7E21FA8E8A3003C852A /* Main.storyboard */; };
+		F980A7E71FA8E8A3003C852A /* JigWithMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F980A7E51FA8E8A3003C852A /* JigWithMe.xcdatamodeld */; };
+		F980A7E91FA8E8A3003C852A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F980A7E81FA8E8A3003C852A /* Assets.xcassets */; };
+		F980A7EC1FA8E8A3003C852A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F980A7EA1FA8E8A3003C852A /* LaunchScreen.storyboard */; };
+		F980A7F71FA8E8A3003C852A /* JigWithMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F980A7F61FA8E8A3003C852A /* JigWithMeTests.swift */; };
+		F980A8021FA8E8A3003C852A /* JigWithMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F980A8011FA8E8A3003C852A /* JigWithMeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F980A7F31FA8E8A3003C852A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F980A7D31FA8E8A3003C852A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F980A7DA1FA8E8A3003C852A;
+			remoteInfo = JigWithMe;
+		};
+		F980A7FE1FA8E8A3003C852A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F980A7D31FA8E8A3003C852A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F980A7DA1FA8E8A3003C852A;
+			remoteInfo = JigWithMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F980A7DB1FA8E8A3003C852A /* JigWithMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigWithMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F980A7DE1FA8E8A3003C852A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F980A7E01FA8E8A3003C852A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F980A7E31FA8E8A3003C852A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F980A7E61FA8E8A3003C852A /* JigWithMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JigWithMe.xcdatamodel; sourceTree = "<group>"; };
+		F980A7E81FA8E8A3003C852A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F980A7EB1FA8E8A3003C852A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F980A7ED1FA8E8A3003C852A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F980A7F21FA8E8A3003C852A /* JigWithMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigWithMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F980A7F61FA8E8A3003C852A /* JigWithMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigWithMeTests.swift; sourceTree = "<group>"; };
+		F980A7F81FA8E8A3003C852A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F980A7FD1FA8E8A3003C852A /* JigWithMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigWithMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F980A8011FA8E8A3003C852A /* JigWithMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigWithMeUITests.swift; sourceTree = "<group>"; };
+		F980A8031FA8E8A3003C852A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F980A7D81FA8E8A3003C852A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F980A7EF1FA8E8A3003C852A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F980A7FA1FA8E8A3003C852A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F980A7D21FA8E8A3003C852A = {
+			isa = PBXGroup;
+			children = (
+				F980A7DD1FA8E8A3003C852A /* JigWithMe */,
+				F980A7F51FA8E8A3003C852A /* JigWithMeTests */,
+				F980A8001FA8E8A3003C852A /* JigWithMeUITests */,
+				F980A7DC1FA8E8A3003C852A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F980A7DC1FA8E8A3003C852A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F980A7DB1FA8E8A3003C852A /* JigWithMe.app */,
+				F980A7F21FA8E8A3003C852A /* JigWithMeTests.xctest */,
+				F980A7FD1FA8E8A3003C852A /* JigWithMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F980A7DD1FA8E8A3003C852A /* JigWithMe */ = {
+			isa = PBXGroup;
+			children = (
+				F980A7DE1FA8E8A3003C852A /* AppDelegate.swift */,
+				F980A7E01FA8E8A3003C852A /* ViewController.swift */,
+				F980A7E21FA8E8A3003C852A /* Main.storyboard */,
+				F980A7E81FA8E8A3003C852A /* Assets.xcassets */,
+				F980A7EA1FA8E8A3003C852A /* LaunchScreen.storyboard */,
+				F980A7ED1FA8E8A3003C852A /* Info.plist */,
+				F980A7E51FA8E8A3003C852A /* JigWithMe.xcdatamodeld */,
+			);
+			path = JigWithMe;
+			sourceTree = "<group>";
+		};
+		F980A7F51FA8E8A3003C852A /* JigWithMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F980A7F61FA8E8A3003C852A /* JigWithMeTests.swift */,
+				F980A7F81FA8E8A3003C852A /* Info.plist */,
+			);
+			path = JigWithMeTests;
+			sourceTree = "<group>";
+		};
+		F980A8001FA8E8A3003C852A /* JigWithMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F980A8011FA8E8A3003C852A /* JigWithMeUITests.swift */,
+				F980A8031FA8E8A3003C852A /* Info.plist */,
+			);
+			path = JigWithMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F980A7DA1FA8E8A3003C852A /* JigWithMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F980A8061FA8E8A3003C852A /* Build configuration list for PBXNativeTarget "JigWithMe" */;
+			buildPhases = (
+				F980A7D71FA8E8A3003C852A /* Sources */,
+				F980A7D81FA8E8A3003C852A /* Frameworks */,
+				F980A7D91FA8E8A3003C852A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JigWithMe;
+			productName = JigWithMe;
+			productReference = F980A7DB1FA8E8A3003C852A /* JigWithMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F980A7F11FA8E8A3003C852A /* JigWithMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F980A8091FA8E8A3003C852A /* Build configuration list for PBXNativeTarget "JigWithMeTests" */;
+			buildPhases = (
+				F980A7EE1FA8E8A3003C852A /* Sources */,
+				F980A7EF1FA8E8A3003C852A /* Frameworks */,
+				F980A7F01FA8E8A3003C852A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F980A7F41FA8E8A3003C852A /* PBXTargetDependency */,
+			);
+			name = JigWithMeTests;
+			productName = JigWithMeTests;
+			productReference = F980A7F21FA8E8A3003C852A /* JigWithMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F980A7FC1FA8E8A3003C852A /* JigWithMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F980A80C1FA8E8A3003C852A /* Build configuration list for PBXNativeTarget "JigWithMeUITests" */;
+			buildPhases = (
+				F980A7F91FA8E8A3003C852A /* Sources */,
+				F980A7FA1FA8E8A3003C852A /* Frameworks */,
+				F980A7FB1FA8E8A3003C852A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F980A7FF1FA8E8A3003C852A /* PBXTargetDependency */,
+			);
+			name = JigWithMeUITests;
+			productName = JigWithMeUITests;
+			productReference = F980A7FD1FA8E8A3003C852A /* JigWithMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F980A7D31FA8E8A3003C852A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "ASHOK DY";
+				TargetAttributes = {
+					F980A7DA1FA8E8A3003C852A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					F980A7F11FA8E8A3003C852A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F980A7DA1FA8E8A3003C852A;
+					};
+					F980A7FC1FA8E8A3003C852A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F980A7DA1FA8E8A3003C852A;
+					};
+				};
+			};
+			buildConfigurationList = F980A7D61FA8E8A3003C852A /* Build configuration list for PBXProject "JigWithMe" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F980A7D21FA8E8A3003C852A;
+			productRefGroup = F980A7DC1FA8E8A3003C852A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F980A7DA1FA8E8A3003C852A /* JigWithMe */,
+				F980A7F11FA8E8A3003C852A /* JigWithMeTests */,
+				F980A7FC1FA8E8A3003C852A /* JigWithMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F980A7D91FA8E8A3003C852A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F980A7EC1FA8E8A3003C852A /* LaunchScreen.storyboard in Resources */,
+				F980A7E91FA8E8A3003C852A /* Assets.xcassets in Resources */,
+				F980A7E41FA8E8A3003C852A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F980A7F01FA8E8A3003C852A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F980A7FB1FA8E8A3003C852A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F980A7D71FA8E8A3003C852A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F980A7E11FA8E8A3003C852A /* ViewController.swift in Sources */,
+				F980A7E71FA8E8A3003C852A /* JigWithMe.xcdatamodeld in Sources */,
+				F980A7DF1FA8E8A3003C852A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F980A7EE1FA8E8A3003C852A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F980A7F71FA8E8A3003C852A /* JigWithMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F980A7F91FA8E8A3003C852A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F980A8021FA8E8A3003C852A /* JigWithMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F980A7F41FA8E8A3003C852A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F980A7DA1FA8E8A3003C852A /* JigWithMe */;
+			targetProxy = F980A7F31FA8E8A3003C852A /* PBXContainerItemProxy */;
+		};
+		F980A7FF1FA8E8A3003C852A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F980A7DA1FA8E8A3003C852A /* JigWithMe */;
+			targetProxy = F980A7FE1FA8E8A3003C852A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F980A7E21FA8E8A3003C852A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F980A7E31FA8E8A3003C852A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F980A7EA1FA8E8A3003C852A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F980A7EB1FA8E8A3003C852A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F980A8041FA8E8A3003C852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F980A8051FA8E8A3003C852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F980A8071FA8E8A3003C852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GDH4J5F46;
+				INFOPLIST_FILE = JigWithMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AshGoneMAD.JigWithMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F980A8081FA8E8A3003C852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GDH4J5F46;
+				INFOPLIST_FILE = JigWithMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AshGoneMAD.JigWithMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F980A80A1FA8E8A3003C852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GDH4J5F46;
+				INFOPLIST_FILE = JigWithMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AshGoneMAD.JigWithMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JigWithMe.app/JigWithMe";
+			};
+			name = Debug;
+		};
+		F980A80B1FA8E8A3003C852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GDH4J5F46;
+				INFOPLIST_FILE = JigWithMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AshGoneMAD.JigWithMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JigWithMe.app/JigWithMe";
+			};
+			name = Release;
+		};
+		F980A80D1FA8E8A3003C852A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GDH4J5F46;
+				INFOPLIST_FILE = JigWithMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AshGoneMAD.JigWithMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JigWithMe;
+			};
+			name = Debug;
+		};
+		F980A80E1FA8E8A3003C852A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GDH4J5F46;
+				INFOPLIST_FILE = JigWithMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AshGoneMAD.JigWithMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JigWithMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F980A7D61FA8E8A3003C852A /* Build configuration list for PBXProject "JigWithMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F980A8041FA8E8A3003C852A /* Debug */,
+				F980A8051FA8E8A3003C852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F980A8061FA8E8A3003C852A /* Build configuration list for PBXNativeTarget "JigWithMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F980A8071FA8E8A3003C852A /* Debug */,
+				F980A8081FA8E8A3003C852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F980A8091FA8E8A3003C852A /* Build configuration list for PBXNativeTarget "JigWithMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F980A80A1FA8E8A3003C852A /* Debug */,
+				F980A80B1FA8E8A3003C852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F980A80C1FA8E8A3003C852A /* Build configuration list for PBXNativeTarget "JigWithMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F980A80D1FA8E8A3003C852A /* Debug */,
+				F980A80E1FA8E8A3003C852A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F980A7E51FA8E8A3003C852A /* JigWithMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F980A7E61FA8E8A3003C852A /* JigWithMe.xcdatamodel */,
+			);
+			currentVersion = F980A7E61FA8E8A3003C852A /* JigWithMe.xcdatamodel */;
+			path = JigWithMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F980A7D31FA8E8A3003C852A /* Project object */;
+}
